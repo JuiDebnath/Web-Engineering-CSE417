@@ -85,24 +85,12 @@
     font-family: sans-serif;
     padding: 10px;
 }
-.link h2{
-    background-color: rgb(83, 180, 83);
-    text-align: center;
+.nextBtn {
+    background-color: rgb(232, 223, 238);
+    text-align: right;
     text-decoration: underline;
     font-size: 30ps;
     font-family: sans-serif;
     padding: 10px;
 }
-.place h2{
-    background-color: rgb(245, 163, 227);
-    text-align: center;
-    text-decoration: underline;
-    font-size: 30ps;
-    font-family: sans-serif;
-    padding: 10px;
-}
-.place img{
-    height: 250px;
-    width: 250px;
-    
-}
+ 
