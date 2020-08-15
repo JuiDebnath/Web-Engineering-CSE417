@@ -1,0 +1,29 @@
+.link h2{
+    background-color: rgb(83, 180, 83);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30ps;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.place h2{
+    background-color: rgb(245, 163, 227);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30ps;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.place img{
+    height: 250px;
+    width: 250px;
+    
+}
+.back{
+    background-color: rgb(232, 223, 238);
+    text-align: left;
+    text-decoration: underline;
+    font-size: 30ps;
+    font-family: sans-serif;
+    padding: 10px;
+}

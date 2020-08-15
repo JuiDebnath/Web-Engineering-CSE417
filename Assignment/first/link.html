@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="link.css">
+        <style>
+            html{
+                background: url('j.jpg') no-repeat center center fixed;
+                -webkit-background-size:cover;
+                -moz-background-size:cover;
+                -moz-background-size: cover;
+                background-size: cover;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1 id="nameTitle" style="text-align: center;">Jui Debnath</h1>
+        <div class="back">
+            <h2><a id="btn" href="aboutMe.html">Back</a></h2>
+        </div>
+        
+        <div class="link">
+            <h2>Favourite links</h2>
+            <ul>
+            <li><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></li>
+            <li><a href="https://www.sololearn.com/" target="_blank">Visit Sololearn!</a></li>
+            <li><a href="https://www.coursera.com/" target="_blank">Visit Coursera!</a></li>
+            </ul>
+        </div>
+        <div class="place">
+            <h2>Favourite place</h2>
+            <h3>Cox'x Bazar</h3>
+            <img src="cox's.jpg">
+            <p>A famous natural sandy beach in Bangladesh. It is one of the best tourism place in Bangladesh. </p>
+
+            <h3>Ahsan Manzil Museum</h3>
+            <img src="manzil.jpg">
+            <p>Ahsan Manzil was the official residential palace and seat of the Nawab of Dhaka. It was constructed in the Indo-Saracenic Revival architecture.</p>
+
+            <h3>Jaflong</h3>
+            <img src="jaflong.jpg">
+            <p>Jaflong is a hill station and tourist destination in the Division of Sylhet, Bangladesh. It is known for its stone collections and is home of the Khasi tribe.</p>
+            
+
+        </div>
+        <div id="Time" />
+         <script>
+           var t = new Date(document.lastModified);
+           document.getElementById("Time").innerHTML = t;
+        </script>
+       </div>
+    </body>
+</html>

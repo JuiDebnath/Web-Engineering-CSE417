@@ -1,0 +1,11 @@
+#ShowFortune {
+    font-size: 30px;
+    font-style: italic bold;
+    color: black;
+    background-color: antiquewhite;
+    padding: 50px;
+    width: 1400px;
+    height: 625px;
+    border: 2px solid darkblue;
+    text-align: center;
+    }
